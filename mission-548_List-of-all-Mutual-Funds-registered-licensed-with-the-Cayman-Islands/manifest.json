@@ -1,0 +1,20 @@
+{
+  "bot_id": "List-of-all-Mutual-Funds-registered-licensed-with-the-Cayman Islands",
+  "title": "List of all Mutual Funds registered/licensed with the Cayman Islands",
+  "description": "Scaper for mission #548",
+  "language": "ruby",
+  "data_type": "primary data",
+  "identifying_fields": [
+    "company_name"
+  ],
+  "files": [
+    "scraper.rb",
+    "licence_transformer.rb"
+  ],
+  "frequency": "monthly",
+  "transformers": [{
+    "file":  "licence_transformer.rb",
+    "data_type": "simple-licence",
+    "identifying_fields": ["licence_number"]
+  }]
+}
