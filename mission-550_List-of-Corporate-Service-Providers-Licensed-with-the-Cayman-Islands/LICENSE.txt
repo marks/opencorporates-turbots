@@ -1,4 +1,4 @@
-Copyright (c) <date> <your name here>
+Copyright (c) 2014 Mark Silverberg <mark@socialhealthinsights.com>
 
 MIT License
 
